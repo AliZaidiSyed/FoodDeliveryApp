@@ -1,16 +1,19 @@
-# firebasestorage
+# FoodDeliveryApp (Flutter + Firebase)
 
-A new Flutter project.
+A simple food delivery application built with Flutter and Firebase.
 
-## Getting Started
+## Features
+- User authentication (Login/Signup)
+- Restaurant & menu browsing
+- Add to cart and checkout flow
+- Order history
+- Admin panel for managing restaurants and menus
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter (Dart)
+- Firebase (Auth / Firestore / Storage)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run Locally
+```bash
+flutter pub get
+flutter run
