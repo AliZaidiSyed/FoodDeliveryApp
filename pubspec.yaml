@@ -1,0 +1,65 @@
+name: fooddeliveryapp
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  curved_labeled_navigation_bar: ^2.0.6
+  curved_navigation_bar: ^1.0.6
+  firebase_core: ^4.13.0
+  cloud_firestore: ^6.8.0
+  firebase_auth: ^6.5.7
+  random_string: ^2.3.1
+  shared_preferences: ^2.5.5
+  flutter_stripe: ^13.1.0
+  http: ^1.6.0
+  intl: ^0.20.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/onboard.png
+    - images/logo.png
+    - images/logo1.png
+    - images/boy.png
+    - images/pizza.png
+    - images/burger.png
+    - images/tacos.png
+    - images/chinese.png
+    - images/pizza1.png
+    - images/pizza2.png
+    - images/pizza3.png
+    - images/pizza4.png
+    - images/burger1.png
+    - images/burger2.png
+    - images/burger3.png
+    - images/burger4.png
+    - images/pan.png
+    - images/wallet.png
+    - images/delivery-man.png
+    - images/team.png
+    - images/Chinese1.png
+    - images/Chinese2.png
+    - images/Chinese3.png
+    - images/Chinese4.png
+    - images/tacos1.png
+    - images/tacos2.png
+    - images/tacos3.png
+    - images/tacos4.png
+    - images/Hat.png
